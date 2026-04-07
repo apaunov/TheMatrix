@@ -2,6 +2,7 @@
   "name": "TheMatrix",
   "author": "apaunov",
   "dark": true,
+  "editorScheme": "/TheMatrix.xml",
   "colors": {
     "background": "#000000",
     "disabledBackground": "#0A0A0A",
