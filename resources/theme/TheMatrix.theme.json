@@ -1,11 +1,85 @@
 {
   "name": "TheMatrix",
-  "author": "YourCompany",
+  "author": "apaunov",
   "dark": true,
   "colors": {
-    "primaryRed": "#821010"
+    "background": "#000000",
+    "disabledBackground": "#0A0A0A",
+    "inactiveTabs": "#0F1A0F",
+    "activeTabs": "#00FF41",
+    "defaultButton": "#001A00",
+    "accent": "#00FF41",
+    "primaryText": "#000000",
+    "selectionInactive": "#003B00"
   },
   "ui": {
-    "Button.background": "primaryRed"
+    "*": {
+      "background": "background",
+      "inactiveBackground": "inactiveTabs",
+      "selectionBackground": "activeTabs",
+      "selectionInactiveBackground": "selectionInactive",
+      "disabledBackground": "disabledBackground"
+    },
+    "TabbedPane": {
+      "underlineColor": "accent",
+      "hoverColor": "defaultButton"
+    },
+    "SplitPane": {
+      "background": "background"
+    },
+    "FileColor": {
+      "Yellow": "inactiveTabs"
+    },
+    "ComboBox": {
+      "background": "background",
+      "selectionBackground": "defaultButton",
+      "nonEditableBackground": "defaultButton",
+      "ArrowButton.nonEditableBackground": "defaultButton"
+    },
+    "ActionButton": {
+      "pressedBackground": "defaultButton",
+      "hoverBackground": "selectionInactive"
+    },
+    "Button": {
+      "startBackground": "defaultButton",
+      "endBackground": "defaultButton",
+      "default": {
+        "foreground": "primaryText",
+        "startBackground": "accent",
+        "endBackground": "accent"
+      }
+    },
+    "Popup": {
+      "paintBorder": true,
+      "background": "background",
+      "borderColor": "selectionInactive",
+      "Header.activeBackground": "defaultButton",
+      "Header.inactiveBackground": "selectionInactive",
+      "inactiveBorderColor": "selectionInactive"
+    },
+    "CompletionPopup": {
+      "selectionBackground": "defaultButton",
+      "selectionInactiveBackground": "defaultButton",
+      "Advertiser.foreground": "accent"
+    },
+    "ProgressBar": {
+      "trackColor": "defaultButton",
+      "progressColor": "accent",
+      "indeterminateStartColor": "accent",
+      "indeterminateEndColor": "defaultButton"
+    },
+    "Plugins": {
+      "hoverBackground": "selectionInactive",
+      "lightSelectionBackground": "defaultButton"
+    },
+    "Tree": {
+      "rowHeight": 24
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "#002200",
+      "Checkbox.Background.Disabled.Dark": "#0A140A"
+    }
   }
 }
