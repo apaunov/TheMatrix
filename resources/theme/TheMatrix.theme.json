@@ -2,7 +2,7 @@
   "name": "The Matrix",
   "author": "apaunov",
   "dark": true,
-  "editorScheme": "/TheMatrix.xml",
+  "editorScheme": "/The_Matrix.xml",
   "colors": {
     "background": "#000000",
     "disabledBackground": "#0A0A0A",
