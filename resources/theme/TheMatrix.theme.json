@@ -4,14 +4,14 @@
   "dark": true,
   "editorScheme": "/The_Matrix.xml",
   "colors": {
-    "background": "#000000",
-    "disabledBackground": "#0A0A0A",
-    "inactiveTabs": "#0F1A0F",
-    "activeTabs": "#00FF41",
-    "defaultButton": "#001A00",
-    "accent": "#00FF41",
-    "primaryText": "#000000",
-    "selectionInactive": "#003B00"
+    "background": "#020403",
+    "disabledBackground": "#09100B",
+    "inactiveTabs": "#07100A",
+    "activeTabs": "#13301D",
+    "defaultButton": "#0C1A12",
+    "accent": "#7DFF7A",
+    "primaryText": "#D8FFE1",
+    "selectionInactive": "#102817"
   },
   "ui": {
     "*": {
@@ -80,8 +80,8 @@
   },
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default.Dark": "#002200",
-      "Checkbox.Background.Disabled.Dark": "#0A140A"
+      "Checkbox.Background.Default.Dark": "#0F2617",
+      "Checkbox.Background.Disabled.Dark": "#09110A"
     }
   }
 }
