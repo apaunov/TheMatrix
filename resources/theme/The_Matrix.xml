@@ -15,24 +15,25 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="0E1033" />
     <option name="DELETED_LINES_COLOR" value="A0A0A0" />
     <option name="DIFF_SEPARATOR_WAVE" value="6BEF28" />
-    <option name="DOCUMENTATION_COLOR" value="0E1033" />
+    <option name="DOCUMENTATION_COLOR" value="001A00" />
     <option name="EDITOR_GUTTER_BACKGROUND" value="000000" />
+    <option name="ERROR_HINT" value="2A0000" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="824E9B" />
     <option name="GUTTER_BACKGROUND" value="062B3D" />
-    <option name="HINT_BORDER" value="5E0A4A" />
+    <option name="HINT_BORDER" value="002200" />
     <option name="INDENT_GUIDE" value="002200" />
-    <option name="INFORMATION_HINT" value="5E0A4A" />
+    <option name="INFORMATION_HINT" value="001A00" />
     <option name="LINE_NUMBERS_COLOR" value="006400" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="39FF14" />
-    <option name="LOOKUP_COLOR" value="0E1033" />
+    <option name="LOOKUP_COLOR" value="000000" />
     <option name="METHOD_SEPARATORS_COLOR" value="003B00" />
     <option name="MODIFIED_LINES_COLOR" value="99CCFF" />
     <option name="MODIFIED_TAB_ICON" value="39FF14" />
     <option name="NOTIFICATION_BACKGROUND" value="28540D" />
-    <option name="PROMOTION_PANE" value="5E0A4A" />
-    <option name="QUESTION_HINT" value="5E0A4A" />
+    <option name="PROMOTION_PANE" value="001A00" />
+    <option name="QUESTION_HINT" value="001A00" />
     <option name="READONLY_BACKGROUND" value="0E1033" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="5E0A4A" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="003B00" />
     <option name="RIGHT_MARGIN_COLOR" value="003300" />
     <option name="SELECTED_INDENT_GUIDE" value="003B00" />
     <option name="SELECTED_TEARLINE_COLOR" value="003B00" />
@@ -42,14 +43,14 @@
     <option name="ScrollBar.Mac.thumbColor" value="003B00" />
     <option name="TAB_UNDERLINE" value="003B00" />
     <option name="TEARLINE_COLOR" value="002200" />
-    <option name="TOOLTIP" value="5E0A4A" />
+    <option name="TOOLTIP" value="001A00" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="0C456A" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="3B6B99" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="0C7FC2" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="00A59A" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="459C19" />
     <option name="VISUAL_INDENT_GUIDE" value="002200" />
-    <option name="WARNING_HINT" value="5E0A4A" />
+    <option name="WARNING_HINT" value="2A1A00" />
     <option name="WHITESPACES" value="000000" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="FFFFFF" />
   </colors>
@@ -104,7 +105,9 @@
     </option>
     <option name="CODE_LENS_BORDER_COLOR">
       <value>
-        <option name="EFFECT_COLOR" value="3a208d" />
+        <option name="FOREGROUND" value="ff41" />
+        <option name="BACKGROUND" value="1a00" />
+        <option name="EFFECT_COLOR" value="6400" />
       </value>
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
@@ -524,9 +527,36 @@
     <option name="KOTLIN_VARIABLE_AS_FUNCTION_LIKE">
       <value />
     </option>
+    <option name="LINE_FULL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="2200" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LINE_NONE_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="2a0000" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LINE_PARTIAL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="2a2a00" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ff02" />
+        <option name="FOREGROUND" value="ff41" />
+        <option name="BACKGROUND" value="3b00" />
+        <option name="EFFECT_COLOR" value="6400" />
+      </value>
+    </option>
+    <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
+      <value>
+        <option name="FOREGROUND" value="8f11" />
+        <option name="BACKGROUND" value="2200" />
+        <option name="EFFECT_COLOR" value="6400" />
       </value>
     </option>
     <option name="LOG_EXPIRED_ENTRY">
@@ -592,9 +622,9 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="3561ff" />
-        <option name="ERROR_STRIPE_COLOR" value="3561ff" />
+        <option name="FOREGROUND" value="8f11" />
+        <option name="BACKGROUND" value="1a00" />
+        <option name="ERROR_STRIPE_COLOR" value="660000" />
       </value>
     </option>
     <option name="TAB_SELECTED">
@@ -606,6 +636,12 @@
     <option name="TAB_SELECTED_INACTIVE">
       <value />
     </option>
+    <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ff41" />
+        <option name="BACKGROUND" value="3b00" />
+      </value>
+    </option>
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="ff41" />
@@ -615,10 +651,10 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="3a208d" />
+        <option name="FOREGROUND" value="ff41" />
+        <option name="BACKGROUND" value="0" />
         <option name="EFFECT_COLOR" value="eaa9ff" />
-        <option name="ERROR_STRIPE_COLOR" value="5e35e0" />
+        <option name="ERROR_STRIPE_COLOR" value="660000" />
       </value>
     </option>
     <option name="TEXT_STYLE_ERROR">
@@ -672,9 +708,9 @@
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="3a208d" />
-        <option name="ERROR_STRIPE_COLOR" value="5e35e0" />
+        <option name="FOREGROUND" value="8f11" />
+        <option name="BACKGROUND" value="2200" />
+        <option name="ERROR_STRIPE_COLOR" value="660000" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
