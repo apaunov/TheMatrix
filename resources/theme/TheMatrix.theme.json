@@ -10,6 +10,7 @@
     "activeTabs": "#13301D",
     "defaultButton": "#0C1A12",
     "accent": "#7DFF7A",
+    "accentText": "#031006",
     "primaryText": "#D8FFE1",
     "selectionInactive": "#102817"
   },
@@ -46,7 +47,7 @@
       "startBackground": "defaultButton",
       "endBackground": "defaultButton",
       "default": {
-        "foreground": "primaryText",
+        "foreground": "accentText",
         "startBackground": "accent",
         "endBackground": "accent"
       }
