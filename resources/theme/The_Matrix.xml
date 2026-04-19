@@ -95,13 +95,13 @@
     </option>
     <option name="Braces">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="4FAE74" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="Brackets">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="4FAE74" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -178,7 +178,7 @@
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="D8FF72" />
+        <option name="FOREGROUND" value="A8D67D" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -218,18 +218,20 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="CFFFD0" />
+        <option name="FOREGROUND" value="4FAE74" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="CFFFD0" />
+        <option name="FOREGROUND" value="4FAE74" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="4FAE74" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -259,7 +261,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="4FAE74" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -319,7 +321,7 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="FFE08A" />
+        <option name="FOREGROUND" value="63C784" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -331,13 +333,13 @@
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="4FAE74" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="4FAE74" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -361,7 +363,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="5AF06B" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -449,10 +451,30 @@
       </value>
     </option>
     <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES" />
-    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
-    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
-    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="A8D67D" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="98F5B3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="5AF06B" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="72FF80" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="39ff14" />
@@ -514,13 +536,13 @@
     </option>
     <option name="KOTLIN_COLON">
       <value>
-        <option name="FOREGROUND" value="FFE08A" />
+        <option name="FOREGROUND" value="63C784" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_DOUBLE_COLON">
       <value>
-        <option name="FOREGROUND" value="FFE08A" />
+        <option name="FOREGROUND" value="63C784" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -701,7 +723,7 @@
     <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="Parentheses">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="4FAE74" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -818,20 +840,20 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="D8FF72" />
+        <option name="FOREGROUND" value="A8D67D" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="FFD36B" />
+        <option name="FOREGROUND" value="5AF06B" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="FFE08A" />
+        <option name="FOREGROUND" value="72FF80" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
