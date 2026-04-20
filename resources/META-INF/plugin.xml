@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.apaunov.thematrix</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>The Matrix</name>
     <category>UI</category>
@@ -13,20 +13,14 @@
         A dark IntelliJ theme inspired by <i>The Matrix</i>.
         <br/>
         <br/>
-        The theme brings a cinematic black-and-phosphor-green palette to the IDE with Matrix-style editor colors, darker UI surfaces, glowing green accents, and a custom plugin icon designed to match the movie's visual identity.
+        The theme brings a cinematic black-and-phosphor-green palette to the IDE with Matrix-style editor colours, darker UI surfaces, glowing green accents, and a custom plugin icon designed to match the movie's visual identity.
         <br/>
         <br/>
         Built for developers who want their editor to feel like a terminal inside the Matrix.
         ]]></description>
 
     <change-notes><![CDATA[
-        Initial public release of The Matrix theme.
-        <br/>
-        - Added a custom Matrix-inspired dark UI theme
-        <br/>
-        - Added a matching editor color scheme with phosphor-green accents
-        <br/>
-        - Added a custom plugin icon and updated plugin metadata
+        Improved the colour contrast for functions, class names and operators
     ]]></change-notes>
 
     <depends>com.intellij.modules.platform</depends>
