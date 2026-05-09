@@ -9,19 +9,23 @@
 
     <idea-version since-build="251"/>
 
-    <description><![CDATA[
-        A dark IntelliJ theme inspired by <i>The Matrix</i>.
-        <br/>
-        <br/>
-        The theme brings a cinematic black-and-phosphor-green palette to the IDE with Matrix-style editor colours, darker UI surfaces, glowing green accents, and a custom plugin icon designed to match the movie's visual identity.
-        <br/>
-        <br/>
-        Built for developers who want their editor to feel like a terminal inside the Matrix.
-        ]]></description>
+    <description>
+        <![CDATA[
+            A dark IntelliJ theme inspired by <i>The Matrix</i>.
+            <br/>
+            <br/>
+            The theme brings a cinematic black-and-phosphor-green palette to the IDE with Matrix-style editor colours, darker UI surfaces, glowing green accents, and a custom plugin icon designed to match the movie's visual identity.
+            <br/>
+            <br/>
+            Built for developers who want their editor to feel like a terminal inside the Matrix.
+        ]]>
+    </description>
 
-    <change-notes><![CDATA[
-        Improved the colour contrast for functions, class names and operators
-    ]]></change-notes>
+    <change-notes>
+        <![CDATA[
+            Improved the colour contrast for functions, class names and operators
+        ]]>
+    </change-notes>
 
     <depends>com.intellij.modules.platform</depends>
 
